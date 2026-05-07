@@ -22,7 +22,7 @@ jobs:
     # if: contains(github.event.pull_request.labels.*.name, 'ai review')
     steps:
       - name: DeepSeek Code Review
-        uses: hustcer/deepseek-review@6cbc5ef63113a9fc1218cd5fac713901af692fb4 # main
+        uses: hustcer/deepseek-review@main
         with:
           max-length: 50000
           # model: 'deepseek-v3'                          # Infinigence's DeepSeek V3 model

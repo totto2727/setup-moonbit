@@ -20,13 +20,13 @@ jobs:
     name: Upstream Check
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           ref: feature/latest
 
       - name: Setup Nushell
-        uses: hustcer/setup-nu@92c296ba1ba2ba04cc948ab64ddefe192dc13f0c # v3
+        uses: hustcer/setup-nu@v3
         with:
           version: 0.112.2
 
