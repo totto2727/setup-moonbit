@@ -32,7 +32,7 @@ runs:
   using: 'composite'
   steps:
     - name: Setup Nu
-      uses: hustcer/setup-nu@v3.22
+      uses: hustcer/setup-nu@1e902a96b0f833e2e66eeb7aa4db13a14595bcfa # v3.22
       with:
         version: 0.112.2
 
